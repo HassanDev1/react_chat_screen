@@ -4,7 +4,7 @@ const ChatScreen = (props) => {
     const [message, setmessage] = useState({ username: props.user.username, text: '' });
 
     const isDisabled = () => {
-        return message.text === ''
+        return message.text === '';
 
     };
 
